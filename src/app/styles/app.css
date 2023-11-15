@@ -10,3 +10,33 @@ body{
 .shadow{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+/* card */
+.card-image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* user */
+.mapa_campus{
+    height: 100vh;
+    background-image: url("https://i.imgur.com/DcFQhQo.jpeg");
+    background-size: cover;
+    display: flex;
+}
+
+#sidebarOpen{
+    width: 50vw;
+    transition: width 0.3s ease; 
+}
+#sidebarList{
+    display: none;
+}
+#sidebarName{
+    display: none;
+}
+#form{
+    display: block;
+}
+.archivo{
+    transform: scale(0.5);
+}

@@ -1,16 +1,18 @@
-import 'src/app/styles/app.css'; // Tell webpack that Button.js uses these styles
+import 'src/app/styles/app.css'; 
 
 export default function Card(props) {
   return (
-    <div class="shadow box-content m-5  p-4 rounded">
-      <div class="">
-          <img class="" src={props.image} alt="map" />        
+    <div className="shadow m-5 rounded">
+      <div className="h-[200px] ">
+          <img className="card-image" src={props.image} alt="map" />        
       </div>
-        <div>
-          <h1 class="text-xl"><b>{props.issue}</b></h1>
-          <h2>{props.name}</h2>
-          <h2>{props.description}</h2>
-        </div>
+      <div className="h-[150px] p-4">
+        <h1 className='text-xs xl:text-sm text-left float-left'><b>{props.issue}</b></h1> 
+        <h1 className='text-xs xl:text-sm text-right float-right'>{props.fecha}</h1> 
+        <hr className='clear-both'/>
+        <h2 className='text-xs xl:text-sm'>{props.name}</h2>
+        <h2 className='text-xs xl:text-sm'>{props.description}</h2>
+      </div>
     </div>
   )
 }
