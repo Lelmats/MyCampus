@@ -11,11 +11,10 @@ export default function User() {
   return (
     <>
       <SidebarUser 
-      classe={toggle ? 'sidebarOpen' : 'nada'} 
-      list={toggle ? 'sidebarList' : 'nada'} 
-      name={toggle ? 'sidebarName' : 'nada'} 
-      form={toggle ? 'form' : 'nada'} 
-      
+      classe={toggle ? 'sidebarOpen' : 'sidebarClose'} 
+      list={toggle ? 'sidebarList' : 'sidebarClose'} 
+      name={toggle ? 'sidebarName' : 'sidebarClose'} 
+      form={toggle ? 'form' : 'sidebarClose'} 
       />
       <div>
         <div className={`card-image mapa_campus`} onClick={handleToggle}>

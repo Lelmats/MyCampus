@@ -19,13 +19,16 @@ body{
 /* user */
 .mapa_campus{
     height: 100vh;
-    background-image: url("https://i.imgur.com/DcFQhQo.jpeg");
+    background-image: url("https://i.ibb.co/mBCrTg7/ULSAMAP.jpg");
     background-size: cover;
-    display: flex;
+    display: cover;
 }
 
 #sidebarOpen{
-    width: 50vw;
+    width: 40vw;
+    transition: width 0.3s ease; 
+}
+#sidebarClose{
     transition: width 0.3s ease; 
 }
 #sidebarList{
