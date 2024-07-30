@@ -1,5 +1,5 @@
 # MyCampus Idea APP
-APLICACIÓN WEB PARA EL REGISTRO DE INCIDENCIAS EN UN CAMPUS UNIVERSITARIO BASADO EN UN MAPA DIGITAL 
+## Website para el registro de incidencias en un campus universitario basado en un mapa digital, manejado por administración universitaria.
 
 ## Use of app
 ![GifShowcaseWeb](https://github.com/Lelmats/MyCampus/blob/main/public/ResultadosWebMyCampus-.gif)
